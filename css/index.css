@@ -235,20 +235,22 @@ h1, h2, h3, h4, h5 {
         display: none;
     }
 
-    .container .container_two_div {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
+     .container_two_div {
         width: 100%;
-        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 10px;
         border-bottom: solid 2px black;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
     }
     
     .container_two_div .top_div {
         text-align: center;
-	    margin-top: 290px;
+        margin-top: 270px;
+        width: 100%;
     }
 
     .container .two_column_div {
@@ -256,7 +258,7 @@ h1, h2, h3, h4, h5 {
         flex-direction: column;
         justify-content: center;
         align-items: stretch;
-        width: 95%;
+        width: 100%;
     }
 
     .container .middle-img {
@@ -326,17 +328,10 @@ h1, h2, h3, h4, h5 {
     
     .container address { 
         display: block;
-        width: 95%;
+        width: 100%;
         margin: 20px;
         line-height: 1.5;
     }
-
-
-
-
-
-
-
 }
 
 /*End of Media Query for Phone*/
